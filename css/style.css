@@ -168,9 +168,9 @@ hr { display: none; }
 
 #header {
 
-	width: 900px;
+	width: 910px;
 
-	height: 50px;
+	height: 55px;
 
 	margin: 0 auto;
 
@@ -228,15 +228,17 @@ hr { display: none; }
 
 	float: left;
 
-	height: 20px;
+	height: 15px;
 
 	margin-right: 3px;
 
-	padding: 15px 20px;
+	padding: 12px 26px;
+
+    font-variant:all-small-caps;
 
 	text-decoration: none;
 
-	text-transform: uppercase;
+	text-transform: none;
 
 	font-size: 12px;
 
@@ -247,7 +249,7 @@ hr { display: none; }
 
 
 #menu a:hover { text-decoration: none; 
-font-family:cursive;
+font-style:italic;
 color:gray;
 transition-duration:0s;
 }
@@ -256,7 +258,7 @@ transition-duration:0s;
 
 #menu .current_page_item a {
 
-	height: 20px;
+	height: 16px;
 
 	background: #263335/*#F4A287*/;
 
